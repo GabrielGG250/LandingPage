@@ -11,7 +11,7 @@
 
 body {
     font-size: 100%;
-    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    background: linear-gradient(68.15deg, #292222 25%, #b61515 75%);
 }
 
 /* Cabeçalho/Header */
@@ -24,19 +24,26 @@ body {
 }
 
 .cabecalho-imagem {
-    height: 72px;
+    height: 80px;
+    border-radius: 50%;
 }
 
 .cabecalho-menu {
     display: flex;
-    gap: 32px;
+    gap: 12px;
 }
 
 .cabecalho-menu-item {
     font-family: 'Sarala', sans-serif;
+    padding: 10px;
+    border-radius: 15px;
     color: #FFF2E7;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.3em;
+}
+
+.cabecalho-menu-item:hover {
+    background-color: rgba(41, 34, 34, 0.772);
 }
 
 /* Main */
@@ -76,8 +83,8 @@ body {
 
 .conteudo-principal-escrito-botao {
     background-color: #ECD6C4;
-    width: 180px;
-    height: 60px;
+    width: 230px;
+    padding: 10px 5px;
     border: none;
     border-radius: 20px;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
@@ -127,12 +134,12 @@ body {
 /* Footer */
 
 .rodape {
-    padding: 32px;
+    padding: 25px;
     border-top: 0.4px solid #FFF2E7;
 }
 
 .rodape-imagem {
     display: block;
-    height: 48px;
+    height: 200px;
     margin: auto;
 }
