@@ -1,5 +1,56 @@
 @charset "UTF-8";
 
-@media screen (max-width: 950px){
-    
+@media screen and (max-width: 950px){
+    .conteudo-principal {
+        margin: 0px 20px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .conteudo-principal-escrito-titulo {
+        font-size: 45px;
+    }
+
+    .conteudo-principal-imagem {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 665px){
+    .conteudo {
+        text-align: center;
+        margin: 0px 10px;
+    }
+    .conteudo-principal {
+        flex-wrap: wrap;
+    }
+
+    .conteudo-principal-escrito {
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .conteudo-secundario {
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 610px){
+    .cabecalho {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 455px){
+    .cabecalho-menu {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width: 368px){
+    .conteudo-principal-imagem {
+        height: 280px;
+    }
 }
