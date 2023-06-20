@@ -30,6 +30,14 @@
         margin-top: 30px;
     }
 
+    .cabecalho-menu-item {
+        background-color: rgba(41, 34, 34, 0.772);
+    }
+
+    .cabecalho-menu-item:hover {
+        background-color: rgba(58, 49, 49, 0.772);
+    }
+
     .conteudo-secundario {
         margin-bottom: 48px;
     }
@@ -42,10 +50,32 @@
 }
 
 @media screen and (max-width: 455px){
+    .cabecalho {
+        justify-content: center;
+        padding: 24px 15px 20px 15px;
+    }
+
+    ion-icon {
+        display: block;
+        color: white;
+        width: 100%;
+        font-size: 50px;
+        cursor: pointer;
+    }
+
     .cabecalho-menu {
         justify-content: center;
         flex-wrap: wrap;
         gap: 5px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .cabecalho-menu-item {
+        width: 100%;
+        text-align: center;
     }
 }
 
